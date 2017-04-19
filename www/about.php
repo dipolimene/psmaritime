@@ -106,32 +106,238 @@ $page_title = "P'S Maritime - About";
 				<div class="request">
 					<h4><a href="#">VALUE</a></h4>
 				</div>
-			</div><!--/.get-started-->
+			</div><!--/.get-started-->        					
+		</div>	
+       </div>
+			
+			<!-- our-team -->
+			<div class="team">
+				<div class="center wow fadeInDown">
+					<h2>OUR TEAM<span></span></h2>
+					<p class="lead">We have a dedicated team devoted to service</p>
+				</div>
+
+				<div class="row clearfix">
+					<div class="col-md-4 col-sm-6">	
+						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+							<div class="media">
+								<div class="pull-left">
+									<a href="#"><img class="media-object" src="images/man1.jpg" alt=""></a>
+								</div>
+								<div class="media-body">
+									<h4>Olimene Dipo</h4>
+									<h5>Founder and CEO</h5>
+									<ul class="tag clearfix">
+										<li class="btn"><a href="#">Web</a></li>
+										<li class="btn"><a href="#">Ui</a></li>
+										<li class="btn"><a href="#">Ux</a></li>
+										<li class="btn"><a href="#">Photoshop</a></li>
+									</ul>
+									
+									<ul class="social_icons">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div><!--/.media -->
+							<p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.</p>
+						</div>
+					</div><!--/.col-lg-4 -->
+					
+					
+					<div class="col-md-4 col-sm-6 col-md-offset-2">	
+						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+							<div class="media">
+								<div class="pull-left">
+									<a href="#"><img class="media-object" src="images/man1.jpg" alt=""></a>
+								</div>
+								<div class="media-body">
+									<h4>Olimene Dipo</h4>
+									<h5>Founder and CEO</h5>
+									<ul class="tag clearfix">
+										<li class="btn"><a href="#">Web</a></li>
+										<li class="btn"><a href="#">Ui</a></li>
+										<li class="btn"><a href="#">Ux</a></li>
+										<li class="btn"><a href="#">Photoshop</a></li>
+									</ul>
+									<ul class="social_icons">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div><!--/.media -->
+							<p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.</p>
+						</div>
+					</div><!--/.col-lg-4 -->					
+				</div> <!--/.row -->
+				<div class="row team-bar">
+					<div class="first-one-arrow hidden-xs">
+						<hr>
+					</div>
+					<div class="first-arrow hidden-xs">
+						<hr> <i class="fa fa-angle-up"></i>
+					</div>
+					<div class="second-arrow hidden-xs">
+						<hr> <i class="fa fa-angle-down"></i>
+					</div>
+					<div class="third-arrow hidden-xs">
+						<hr> <i class="fa fa-angle-up"></i>
+					</div>
+					<div class="fourth-arrow hidden-xs">
+						<hr> <i class="fa fa-angle-down"></i>
+					</div>
+				</div> <!--skill_border-->       
+
+				<div class="row clearfix">   
+					<div class="col-md-4 col-sm-6 col-md-offset-2">	
+						<div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+							<div class="media">
+								<div class="pull-left">
+									<a href="#"><img class="media-object" src="images/man1.jpg" alt=""></a>
+								</div>
+
+								<div class="media-body">
+									<h4>Olimene Dipo</h4>
+									<h5>Founder and CEO</h5>
+									<ul class="tag clearfix">
+										<li class="btn"><a href="#">Web</a></li>
+										<li class="btn"><a href="#">Ui</a></li>
+										<li class="btn"><a href="#">Ux</a></li>
+										<li class="btn"><a href="#">Photoshop</a></li>
+									</ul>
+									<ul class="social_icons">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div><!--/.media -->
+							<p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-md-offset-2">
+						<div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+							<div class="media">
+								<div class="pull-left">
+									<a href="#"><img class="media-object" src="images/man1.jpg" alt=""></a>
+								</div>
+								<div class="media-body">
+									<h4>Olimene Dipo</h4>
+									<h5>Founder and CEO</h5>
+									<ul class="tag clearfix">
+										<li class="btn"><a href="#">Web</a></li>
+										<li class="btn"><a href="#">Ui</a></li>
+										<li class="btn"><a href="#">Ux</a></li>
+										<li class="btn"><a href="#">Photoshop</a></li>
+									</ul>
+									<ul class="social_icons">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div><!--/.media -->
+							<p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.</p>
+						</div>
+					</div>
+				</div>	<!--/.row-->
+			</div><!--section-->
+		</div><!--/.container-->
+    </section><!--/about-us-->
+	
+	<section id="bottom">
+        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Company Address</h3>
+                        <ul>
+                            <li>MAIN OFFICE <br/> 3B Oko Awo Street,<br/> Victoria Island, Lagos, <br/> Nigeria.</li>                       </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Contact Number</h3>
+                        <ul>
+                            <li>(234) 01 460-5542 <br/>(234) 01 460 5546</li>                          
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Email Address</h3>
+                        <ul>
+                            <li>info@psmaritime.com.ng</li>
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Quick Link</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Contact Us</a></li>                          
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+            </div>
+        </div>
+    </section><!--/#bottom-->
+	
+	<div class="top-bar">
+		<div class="container">
+			<div class="row">
+			    <div class="col-lg-12">
+				   <div class="social">
+						<ul class="social-share">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+							<li><a href="#"><i class="fa fa-skype"></i></a></li>
+						</ul>
+				   </div>
+                </div>
 			</div>
-		</div>
-	</div>
-
-<!-- ABOUT US ENDS -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </body>
-  </html>
+		</div><!--/.container-->
+	</div><!--/.top-bar-->
+	
+	<footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    2017 &copy P'S Maritime.com.ng All Rights Reserved.
+                    <div class="credits">
+                        
+              <!--          <a href="https://dipolimene.com/">Designed</a> by <a href="https://bootstrapmade.com/">DO</a>	-->
+                        
+                    </div>
+                </div>
+                
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="https://dipolimene.com/">Designed</a> by <a href="https://dipolimene.com/">DO</a></li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>   
+    <script src="js/wow.min.js"></script>
+	<script src="js/main.js"></script>
+    
+</body>
+</html>
