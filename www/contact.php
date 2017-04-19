@@ -103,3 +103,110 @@ $page_title = "P'S Maritime - Services";
     </section><!--/#contact-page-->
 
 <!--FORM SECTION ENDS -->
+
+<!-- BOTTOM SECTION WITH ADDRESS BEGINS -->
+    
+    <section id="bottom">
+        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Company Address</h3>
+                        <ul>
+                            <li>MAIN OFFICE <br/> 3B Oko Awo Street,<br/> Victoria Island, Lagos, <br/> Nigeria.</li>                       </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Contact Number</h3>
+                        <ul>
+                            <li>(234) 01 460-5542 <br/>(234) 01 460 5546</li>                          
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Email Address</h3>
+                        <ul>
+                            <li>info@psmaritime.com.ng</li>
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Quick Link</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Contact Us</a></li>                          
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+            </div>
+        </div>
+    </section><!--/#bottom-->
+
+<!-- BOTTOM SECTION WITH ADDRESS ENDS -->
+
+<!-- SOCIAL SECTION BEGINS -->
+    
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                   <div class="social">
+                        <ul class="social-share">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                        </ul>
+                   </div>
+                </div>
+            </div>
+        </div><!--/.container-->
+    </div><!--/.top-bar-->
+
+<!-- SOCIAL SECTION ENDS -->
+
+<!-- FOOTER SECTION BEGINS -->
+    
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    2017 &copy P'S Maritime.com.ng All Rights Reserved.
+                    <div class="credits">
+                        
+              <!--          <a href="https://dipolimene.com/">Designed</a> by <a href="https://bootstrapmade.com/">DO</a>   -->
+                        
+                    </div>
+                </div>
+                
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="https://dipolimene.com/">Designed</a> by <a href="https://dipolimene.com/">DO</a></li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+<!-- FOOTER SECTION ENDS -->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>   
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
