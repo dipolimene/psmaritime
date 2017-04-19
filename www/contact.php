@@ -29,12 +29,8 @@ $subject = array("General Customer Service", "Suggestions", "Product Support");
     <link href="css/prettyPhoto.css" rel="stylesheet">      
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
-    <!-- =======================================================
-        Theme Name: Gp
-        Theme URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-templat/
-        Author: BootstrapMade
-        Author URL: https://bootstrapmade.com
-    ======================================================= -->  
+    
+     
     
   </head>
   <body class="homepage">
