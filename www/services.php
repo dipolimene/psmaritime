@@ -170,3 +170,51 @@ $page_title = "P'S Maritime - Services";
     </section><!--/#feature-->
 
 <!-- WHAT CLIENT SAYS SECTION ENDS -->
+
+<!-- BOTTOM SECTION WITH ADDRESS BEGINS -->
+    
+    <section id="bottom">
+        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Company Address</h3>
+                        <ul>
+                            <li>MAIN OFFICE <br/> 3B Oko Awo Street,<br/> Victoria Island, Lagos, <br/> Nigeria.</li>                       </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Contact Number</h3>
+                        <ul>
+                            <li>(234) 01 460-5542 <br/>(234) 01 460 5546</li>                          
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Email Address</h3>
+                        <ul>
+                            <li>info@psmaritime.com.ng</li>
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Quick Link</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Contact Us</a></li>                          
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+            </div>
+        </div>
+    </section><!--/#bottom-->
+
+<!-- BOTTOM SECTION WITH ADDRESS ENDS -->
