@@ -1,6 +1,11 @@
 <?php
 
-$page_title = "P'S Maritime - Services";
+$page_title = "P'S Maritime - Contact";
+
+#inlude db
+include 'include/db.php';
+
+$subject = array("General Customer Service", "Suggestions", "Product Support");
 
 
 ?>
@@ -50,8 +55,8 @@ $page_title = "P'S Maritime - Services";
                     <ul class="nav navbar-nav">
                         <li><a href="index.php">Home</a></li>
                         <li><a href="about.php">About Us</a></li>
-                        <li class="active"><a href="services.php">Services</a></li>
-                        <li><a href="contact.php">Contact</a></li>                        
+                        <li><a href="services.php">Services</a></li>
+                        <li class="active"><a href="contact.php">Contact</a></li>                        
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -78,18 +83,48 @@ $page_title = "P'S Maritime - Services";
                     <div id="sendmessage">Your message has been sent. Thank you!</div>
                     <div id="errormessage"></div>
                     <form action="" method="post" role="form" class="contactForm">
+
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" value="<?php if(isset($_POST['name'])){ echo $_POST['name']; }   ?>"/>
                             <div class="validation"></div>
                         </div>
+
                         <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" value="<?php if(isset($_POST['email'])){ echo $_POST['email']; } ?>"/>
                             <div class="validation"></div>
                         </div>
+
                         <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <input type="text" class="form-control" name="number" id="subject" placeholder="Mobile Number" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" value="<?php if(isset($_POST['number'])){ echo $_POST['number']; } ?>" />
                             <div class="validation"></div>
                         </div>
+
+                        <div class="form-group">
+                            <select name="subject" class="form-control">
+                    
+                            <option value="" >Subject</option>
+
+                            <?php foreach($subject as $sub){ ?>
+
+                            <option value="<?php echo $sub ?>">
+
+                            <?php if(isset($_POST['subject']) && $_POST['subject'] == $sub){
+            
+                            echo 'checked ="unchecked"';  
+                            }
+
+                            ?>
+
+                            <?php echo $sub ?>
+
+                            </option>
+
+                            <?php } ?>
+    
+                            </select>
+                            <div class="validation"></div>   
+                        </div>
+
                         <div class="form-group">
                             <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                             <div class="validation"></div>
