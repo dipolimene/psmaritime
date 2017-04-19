@@ -118,3 +118,55 @@ $page_title = "P'S Maritime - Services";
     </section><!--/#services-->
 
 <!-- SERVICE SECTION ENDS -->
+
+
+<!-- WHAT CLIENT SAYS SECTION BEGINS -->
+
+    <section id="feature" class="transparent-bg">
+
+        <div class="container">
+        
+            <div class="get-started center wow fadeInDown">
+                <h2> <span>RESILIENCE</span> ǀ <span>INTEGRITY</span> ǀ <span>COMPETENCY</span> ǀ <span>EFFICIENCY</span> </h2>
+<!--                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore  magna aliqua. <br>  Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                <div class="request">
+                    <h4><a href="#">Request a free Quote</a></h4>
+                </div>      -->
+            </div><!--/.get-started-->
+
+            <div class="clients-area center wow fadeInDown">
+                <h2>What our client says</h2>
+                <p class="lead">A sneak peak on what our clients are saying about us</p>
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-md-4 wow fadeInDown">
+                    <div class="clients-comments text-center">
+                        <img src="images/client1.png" class="img-circle" alt="">
+                        <h3>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work</h3>
+                        <h4><span>-Olimene Dipo /</span>  CEO dipolimene.com</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInDown">
+                    <div class="clients-comments text-center">
+                        <img src="images/client1.png" class="img-circle" alt="">
+                        <h3>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work</h3>
+                        <h4><span>-Olimene Dipo /</span>  CEO dipolimene.com</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInDown">
+                    <div class="clients-comments text-center">
+                        <img src="images/client1.png" class="img-circle" alt="">
+                        <h3>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work</h3>
+                        <h4><span>-Olimene Dipo /</span>  CEO dipolimene.com</h4>
+                    </div>
+                </div>
+
+            </div>
+
+        </div><!--/.container-->
+    </section><!--/#feature-->
+
+<!-- WHAT CLIENT SAYS SECTION ENDS -->
