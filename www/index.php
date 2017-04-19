@@ -29,6 +29,7 @@ $page_title = "P'S Maritime - Home";
         Theme URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-templat/
         Author: BootstrapMade
         Author URL: https://bootstrapmade.com
+        Refactored : Dipo Olimene for dipolimene.com
     ======================================================= -->  
     
   </head>
@@ -54,14 +55,54 @@ $page_title = "P'S Maritime - Home";
                         <li class="active"><a href="index.php">Home</a></li>
                         <li><a href="about.php">About Us</a></li>
                         <li><a href="services.php">Services</a></li>
-                        <li><a href="contact-us.php">Contact</a></li>                        
+                        <li><a href="contact.php">Contact</a></li>                        
                     </ul>
                 </div>
             </div><!--/.container-->
         </nav><!--/nav-->	
     </header><!--/header-->
 
+<!-- THE HEADER SECTION ENDS HERE -->
 
+
+<!-- THE SLIDER SECTION GOES HERE -->
+
+	<div class="slider">
+		<div class="container">
+			<div id="about-slider">
+				<div id="carousel-slider" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+				  	<ol class="carousel-indicators visible-xs">
+					    <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-slider" data-slide-to="1"></li>
+					    <li data-target="#carousel-slider" data-slide-to="2"></li>
+				  	</ol>
+
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="images/ps1.jpg" class="img-responsive" alt=""> 
+					   </div>
+					   <div class="item">
+							<img src="images/ps2.jpg" class="img-responsive" alt=""> 
+					   </div> 
+					   <div class="item">
+							<img src="images/ps3.jpg" class="img-responsive" alt=""> 
+					   </div>   
+					</div>
+					
+					<a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+						<i class="fa fa-angle-left"></i> 
+					</a>
+					
+					<a class=" right carousel-control hidden-xs"href="#carousel-slider" data-slide="next">
+						<i class="fa fa-angle-right"></i> 
+					</a>
+				</div> <!--/#carousel-slider-->
+			</div><!--/#about-slider-->
+		</div>
+	</div>
+
+<!-- THE SLIDER SECTION ENDS HERE -->
 
 
 
