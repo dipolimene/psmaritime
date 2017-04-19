@@ -9,7 +9,7 @@ $page_title = "P'S Maritime - Home";
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,6 +33,43 @@ $page_title = "P'S Maritime - Home";
     
   </head>
   <body class="homepage"> 
+
+<!-- THE HEADER SECTION GOES HERE -->
+
+  		<header id="header">
+        <nav class="navbar navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"> <img src="images/pslogo.png"/ height="73px"> </a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="contact-us.php">Contact</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->	
+    </header><!--/header-->
+
+
+
+
+
+
+
+
+
+
 
 
 
