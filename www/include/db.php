@@ -2,7 +2,7 @@
 
 define('DBNAME', 'psmaritime');
 define('DBUSER', 'root');
-define('DBPASS', '');
+define('DBPASS', 'root');
 
 
 try{

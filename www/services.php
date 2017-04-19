@@ -49,8 +49,8 @@ $page_title = "P'S Maritime - Services";
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li><a href="index.php">Home</a></li>
-                        <li class="active"><a href="about.php">About Us</a></li>
-                        <li><a href="services.php">Services</a></li>
+                        <li><a href="about.php">About Us</a></li>
+                        <li class="active"><a href="services.php">Services</a></li>
                         <li><a href="contact.php">Contact</a></li>                        
                     </ul>
                 </div>

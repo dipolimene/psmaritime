@@ -5,6 +5,9 @@ $page_title = "P'S Maritime - Contact";
 #inlude db
 include 'include/db.php';
 
+#include function
+include 'include/function.php';
+
 $subject = array("General Customer Service", "Suggestions", "Product Support");
 
 
@@ -82,21 +85,73 @@ $subject = array("General Customer Service", "Suggestions", "Product Support");
                 <div class="col-sm-8 col-sm-offset-2">
                     <div id="sendmessage">Your message has been sent. Thank you!</div>
                     <div id="errormessage"></div>
+
+<?php  
+
+
+        $error = array();
+    if(array_key_exists('submit',$_POST)){ 
+        
+        if(empty($_POST['name'])){
+        $error['name'] = "Please enter your full names";  
+        }
+
+        if(empty($_POST['email'])){
+        $error['email'] = "Please enter your email address";   
+        }
+
+        if(empty($_POST['number'])){
+        $error['number'] = "Please enter your mobile number";   
+        }
+
+        if(empty($_POST['subject'])){
+        $error['subject'] = "Please enter your subject";    
+        }
+        
+        if(empty($_POST['message'])){
+        $error['message'] = "Please enter your message";  
+        }
+        
+        
+        if(empty($error)){
+
+        #eliminate unwanted spaces from values in the $_POST array
+        $clean = array_map('trim', $_POST);
+
+        #calls function to register user
+        doSend($conn, $clean);
+
+        } 
+
+        
+    }
+    
+    if(isset($_GET['success'])){
+    
+        echo $_GET['success'];
+    }
+    
+    
+    
+    
+    ?>
+
+
                     <form action="" method="post" role="form" class="contactForm">
 
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" value="<?php if(isset($_POST['name'])){ echo $_POST['name']; }   ?>"/>
-                            <div class="validation"></div>
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" value="<?php if(isset($_POST['name'])){ echo $_POST['name']; }   ?>"/>
+                            <div class="validation"> <?php $display = displayError($error, 'name'); echo $display; ?> </div>
                         </div>
 
                         <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" value="<?php if(isset($_POST['email'])){ echo $_POST['email']; } ?>"/>
-                            <div class="validation"></div>
+                            <input type="email" name="email" class="form-control" placeholder="Your Email" value="<?php if(isset($_POST['email'])){ echo $_POST['email']; } ?>"/>
+                            <div class="validation"> <?php $display = displayError($error, 'email'); echo $display; ?> </div>
                         </div>
 
                         <div class="form-group">
-                            <input type="text" class="form-control" name="number" id="subject" placeholder="Mobile Number" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" value="<?php if(isset($_POST['number'])){ echo $_POST['number']; } ?>" />
-                            <div class="validation"></div>
+                            <input type="text" name="number" class="form-control" placeholder="Mobile Number" value="<?php if(isset($_POST['number'])){ echo $_POST['number']; } ?>" />
+                            <div class="validation"> <?php $display = displayError($error, 'number'); echo $display; ?> </div>
                         </div>
 
                         <div class="form-group">
@@ -122,15 +177,16 @@ $subject = array("General Customer Service", "Suggestions", "Product Support");
                             <?php } ?>
     
                             </select>
-                            <div class="validation"></div>   
+                            <div class="validation"> <?php $display = displayError($error, 'subject'); echo $display; ?> </div>   
                         </div>
 
                         <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div>
+                            <textarea name="message" class="form-control" rows="5" placeholder="Message"> <?php if(isset($_POST['message'])) { echo $_POST['message']; } ?> </textarea>
+                            <div class="validation"> <?php $display = displayError($error, 'message'); echo $display; ?> </div>
                         </div>
                         
-                        <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Send Message</button></div>
+                <div class="text-center"><button type="submit" class="btn btn-primary btn-lg" name="submit">Send Message</button></div>
+
                     </form>     
                 </div>
             </div><!--/.row-->
@@ -184,10 +240,6 @@ $subject = array("General Customer Service", "Suggestions", "Product Support");
             </div>
         </div>
     </section><!--/#bottom-->
-
-<!-- BOTTOM SECTION WITH ADDRESS ENDS -->
-
-<!-- SOCIAL SECTION BEGINS -->
     
     <div class="top-bar">
         <div class="container">
@@ -206,10 +258,6 @@ $subject = array("General Customer Service", "Suggestions", "Product Support");
             </div>
         </div><!--/.container-->
     </div><!--/.top-bar-->
-
-<!-- SOCIAL SECTION ENDS -->
-
-<!-- FOOTER SECTION BEGINS -->
     
     <footer id="footer" class="midnight-blue">
         <div class="container">
@@ -232,8 +280,6 @@ $subject = array("General Customer Service", "Suggestions", "Product Support");
             </div>
         </div>
     </footer><!--/#footer-->
-
-<!-- FOOTER SECTION ENDS -->
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.js"></script>
